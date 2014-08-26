@@ -1,0 +1,37 @@
+{
+  "author": "Steve Kaliski <sjkaliski@gmail.com> (https://github.com/sjkaliski)",
+  "name": "numbers",
+  "description": "Advanced Mathematics Library for JavaScript",
+  "version": "0.5.0",
+  "homepage": "https://github.com/sjkaliski/numbers.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sjkaliski/numbers.js"
+  },
+  "contributors": [
+    "David Byrd (https://github.com/davidbyrd11)",
+    "Ethan Resnick (https://github.comc/ethanresnick)",
+    "Dakota St. Laurent (https://github.com/StDako)",
+    "Kartik Talwar (https://github.com/KartikTalwar)"
+  ],
+  "engines": {
+    "node": ">= v0.6.0"
+  },
+  "main": "index",
+  "keywords": [
+    "math",
+    "mathematics",
+    "numbers",
+    "statistics"
+  ],
+  "devDependencies": {
+    "mocha": "~1.8.0",
+    "browserify": "~1.16.6",
+    "uglify-js": "~2.2.2",
+    "jshint": "~0.9.1"
+  },
+  "scripts": {
+    "test": "make test",
+    "build": "make build"
+  }
+}
